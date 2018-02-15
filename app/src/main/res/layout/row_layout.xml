@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/hours_detail_row"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="#37394B">
+
+    <TextView
+        android:id="@+id/time_value_for_nexthour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:textColor="#fff"
+        android:textSize="14sp"
+        android:text="2 AM"
+        android:textStyle="bold" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/small_icon_nexthour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+    <TextView
+        android:id="@+id/temp_nexthour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:textColor="#fff"
+        android:text="66°"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
